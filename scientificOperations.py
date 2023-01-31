@@ -29,7 +29,7 @@ def scientific_calculate(operation, num1):
     elif operation == 'ln':
         # TODO: finish this statement
         # - should return the natural log of num1
-        return math.ln(num1)
+        return math.log(num1)
 
     else:
         raise ValueError(
